@@ -1,33 +1,35 @@
-# HW8-PortafolioUpdate
+# HW18-PortafolioUpdate
 
+### Link: https://aldocarrillo.github.io/HW18-Portfolio/
 
 ## About
+
 The Portfolio Update is a personal webpage where the programmer share our projects, this time the portafolio has the info and the links to our most recent projects we been working during the bootcamp.
 
 ## Usage
-* The Main page has te About Me info, is a short story about the programmer personal life and experience.
-    - At the Bottom of the page has the links to:
+
+-   The Main page has te About Me info, is a short story about the programmer personal life and experience.
+
+    -   At the Bottom of the page has the links to:
         1. Linkedin Profile
         2. GitHub Page
         3. Resume
 
-* The Portfolio page has the links to a webpage more detailed of each project named on it.
-* The Contact page has the info to contact the programmer.
-
-
+-   The Portfolio page has the links to a webpage more detailed of each project named on it.
+-   The Contact page has the info to contact the programmer.
 
 ## Credit
-- [Aldo Carrillo](https://github.com/AldoCarrillo)
+
+-   [Aldo Carrillo](https://github.com/AldoCarrillo)
 
 ## Homepage
 
 link : https://aldocarrillo.github.io/HW8-PortafolioUpdate/index.html
 
-
 ![main](./images/main.png)
 
-
 ## License
+
 MIT License
 
 Copyright (c) [year] [fullname]
