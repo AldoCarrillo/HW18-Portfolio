@@ -24,9 +24,9 @@ The Portfolio Update is a personal webpage where the programmer share our projec
 
 ## Homepage
 
-link : https://aldocarrillo.github.io/HW8-PortafolioUpdate/index.html
-
 ![main](./images/main.png)
+![port](./images/portfolio.png)
+![contact](./images/contact.png)
 
 ## License
 

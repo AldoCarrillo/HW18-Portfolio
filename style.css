@@ -1,42 +1,41 @@
-
-#project1  :hover , #weather :hover, #dayplanner :hover, #thequiz :hover{
- 
- opacity: 0.65;
- 
-    
+#project1 :hover,
+#weather :hover,
+#dayplanner :hover,
+#thequiz :hover,
+#memory:hover {
+    opacity: 0.65;
 }
 
 #profileLinks {
-
     font-weight: bold;
     border: 1px solid #0062cc;
     width: 350px;
     padding: 5px;
 }
 /*backgorund img*/
-body{
+body {
     background-color: ghostwhite;
     background-image: url("images/background.jfif");
 }
 
 /*row to separete  info*/
-.row{
+.row {
     margin-left: 0;
 }
 
 /*big container of the webpage*/
-#MainContainer{
+#MainContainer {
     max-width: 95%;
 }
 
 /*h1 header*/
-#h1container{
+#h1container {
     margin-right: 0;
     padding-right: 0;
     background-color: lightgrey;
 }
 
-h1{
+h1 {
     background-color: #0062cc;
     color: ghostwhite;
     list-style-type: none;
@@ -44,31 +43,28 @@ h1{
     height: 100%;
     margin-bottom: 0;
     font-family: Arial, Helvetica, sans-serif;
-    
-  }
-  
+}
 
-.col-md-12{
+.col-md-12 {
     padding-left: 0;
 }
- 
+
 /*Navigation bar with the 3 pages links*/
 #navbar {
-background-color: lightgrey;
-font-size: large;
- font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.nav{
+.nav {
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: lightgrey;
     float: right;
-
 }
 
-.nav-link{
+.nav-link {
     display: block;
     color: #454545;
     text-align: center;
@@ -77,19 +73,17 @@ font-size: large;
 }
 
 .nav a:hover {
-      background-color: #0062cc;
-      color: ghostwhite;
+    background-color: #0062cc;
+    color: ghostwhite;
 }
 
-
 /*container just for portafolio page*/
-#PortafolioContainer{
+#PortafolioContainer {
     background-color: lightgrey;
-    width: 70%;
+    width: 93%;
     margin-top: 80px;
     margin-left: 0;
     margin-bottom: 50px;
-
 }
 
 /*info container for contact and about me page*/
@@ -104,8 +98,7 @@ font-size: large;
 }
 
 /*h2 header for all 3 pages*/
-#h2aboutme
-{
+#h2aboutme {
     color: #0062cc;
     font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
@@ -122,13 +115,12 @@ hr {
     border-width: 1px;
     border: 1px solid #0062cc;
     border-radius: 1px;
-  }
+}
 
-  /*image about my self*/
-#aboutmeImage {  
+/*image about my self*/
+#aboutmeImage {
     padding: 0;
     max-width: fit-content;
-
 }
 
 /*all the text int the info section*/
@@ -141,21 +133,19 @@ hr {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.imgAboutme{
-    
-    margin-right:25px ;
+.imgAboutme {
+    margin-right: 25px;
     margin-bottom: 30px;
 }
 
-
-.portafolioImage{
+.portafolioImage {
     width: 300px;
     height: 200px;
     margin-bottom: 25px;
 }
 
 /*h3 header for the images*/
-h3{
+h3 {
     background-color: #0062cc;
     width: 300px;
     height: 45px;
@@ -173,92 +163,82 @@ h3{
     color: 454545;
     position: absolute;
     min-width: 100%;
-  }
+}
 
 /*media Sizes for different screens*/
-  @media only screen and (max-width: 1150px) {
-    
+@media only screen and (max-width: 1150px) {
     #aboutmetext {
         min-width: 100%;
-    
     }
+}
 
-  }
-
-  @media only screen and (max-width: 980px) {
-    .portafolioImage{
-
+@media only screen and (max-width: 980px) {
+    .portafolioImage {
         width: 250px;
         height: 166px;
         margin-bottom: 25px;
     }
 
-    h3{
+    h3 {
         bottom: 70px;
         width: 250px;
         height: 35px;
         font-size: larger;
     }
 
-    h1{
+    h1 {
         font-size: xx-large;
     }
-
 }
 
-  @media only screen and (max-width: 768px) {
-       
-        #project1, #weather, #dayplanner, #thequiz, #RockPaperScissors{
-            max-width: fit-content;
-        }
-
-        #InfoContainer{
-            width: 90%;
-        }
-
-        .portafolioImage{
-
-            width: 250px;
-            height: 166px;
-            margin-bottom: 25px;
-        }
-    
-        h3{
-            bottom: 70px;
-            width: 250px;
-            height: 35px;
-            font-size: larger;
-        }
-
-
-        #rowPortafolio{
-            padding-left: 50px;
-        }
-  }
-
-    @media only screen and (max-width: 640px) {
-
-
-        #navbar{
-            min-width: 100%;
-        }
-    
-        #h1container{
-            
-            min-width: 100%;
-        }
-
-        #InfoContainer{
-            width: 100%;}
-
-        #rowPortafolio{
-            padding-left: 50px;
-            
-        }
-        #PortafolioContainer{
-            width: 100%;
-        }
-
-
-
+@media only screen and (max-width: 768px) {
+    #project1,
+    #weather,
+    #dayplanner,
+    #thequiz,
+    #RockPaperScissors {
+        max-width: fit-content;
     }
+
+    #InfoContainer {
+        width: 90%;
+    }
+
+    .portafolioImage {
+        width: 250px;
+        height: 166px;
+        margin-bottom: 25px;
+    }
+
+    h3 {
+        bottom: 70px;
+        width: 250px;
+        height: 35px;
+        font-size: larger;
+    }
+
+    #rowPortafolio {
+        padding-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    #navbar {
+        min-width: 100%;
+    }
+
+    #h1container {
+        min-width: 100%;
+    }
+
+    #InfoContainer {
+        width: 100%;
+    }
+
+    #rowPortafolio {
+        padding-left: 50px;
+    }
+    #PortafolioContainer {
+        width: 100%;
+    }
+}
